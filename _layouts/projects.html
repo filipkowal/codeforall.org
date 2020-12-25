@@ -1,45 +1,56 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html class="has-navbar-fixed-top">
-{% include head.html %}
+  {% include head.html %}
 
-<body>
+  <body>
     {% include header.html %}
     <div class="projects-banner banner">
-        <div class="container">
-            <div class="row">
-                <div class="col ">
-                    <h1 class="banner-text  prg-mrg">Projects</h1>
-                    <h3 class="banner-text-sm">Here are some of the things we've created together from around the world.</h3>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1 class="banner-text prg-mrg">Projects</h1>
+            <h3 class="banner-text-sm">
+              Here are some of the things we've created together from around the
+              world.
+            </h3>
+          </div>
         </div>
+      </div>
     </div>
     <div class="project-items">
-        <div class="container">
-            <div class="row justify-content-center project-items-here">
-
-            </div>
-        </div>
+      <div class="container">
+        <div class="row justify-content-center project-items-here"></div>
+      </div>
     </div>
     <div class="involved">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-7 col-lg-8">
-                    <h2 class="involved-h2 inv-left ">Have time? Want to help? Collaborate on projects!</h2>
-                    <p class="involved-p inv-left">Check out cool civic tech projects worldwide that are looking for a helping hand.</p>
-                </div>
-                <div class="col-10 col-sm-8 col-md-4 col-lg-3 ">
-                    <a class="involved-button btn-gthb" href="{{ site.data.links.see-issues }}">
-                        <span class="involved-link-text text-gthb">
-                            <span class="involved-github-icon"></span> See the list of issues
-                        </span>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-7 col-lg-8">
+            <h2 class="involved-h2 inv-left">
+              Have time? Want to help? Collaborate on projects!
+            </h2>
+            <p class="involved-p inv-left">
+              Check out cool civic tech projects worldwide that are looking for
+              a helping hand. Filter them by languages you know or sort by
+              freshness or popularity. You can also perform an advanced search
+              to be even more specific.
+            </p>
+          </div>
+          <div class="col-10 col-sm-8 col-md-4 col-lg-3">
+            <a
+              class="involved-button btn-gthb"
+              href="{{ site.data.links.see-issues }}"
+            >
+              <span class="involved-link-text text-gthb">
+                <span class="involved-github-icon"></span> See the list of
+                issues
+              </span>
+            </a>
+          </div>
         </div>
+      </div>
     </div>
 
     {% include footer.html %}
-</body>
-
+  </body>
 </html>
